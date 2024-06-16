@@ -15,6 +15,7 @@ services:
       RCON_PASSWORD: "7355608"
       TYPE: FORGE
       VERSION: "1.20.1"
+      MEMORY: 6G
     depends_on:
       restore-backup:
         condition: service_completed_successfully
