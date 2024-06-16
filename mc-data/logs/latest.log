@@ -282,3 +282,27 @@
 [16Jun2024 21:49:34.230] [Server thread/INFO] [FTB Chunks/]: Team char2cs#720444b6 had 0 claimed chunks, now has 0
 [16Jun2024 21:49:36.529] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs lost connection: Disconnected
 [16Jun2024 21:49:36.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: char2cs left the game
+[16Jun2024 21:50:58.297] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[16Jun2024 21:50:58.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]
+[16Jun2024 21:50:58.298] [RCON Client /0:0:0:0:0:0:0:1 #7/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[16Jun2024 21:50:58.334] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
+[16Jun2024 21:50:58.337] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[16Jun2024 21:50:58.338] [Server thread/INFO] [luckperms/]: Closing storage...
+[16Jun2024 21:50:58.354] [Server thread/INFO] [luckperms/]: Goodbye!
+[16Jun2024 21:50:58.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Jun2024 21:50:58.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Jun2024 21:50:58.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Jun2024 21:50:58.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Jun2024 21:50:58.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16Jun2024 21:50:58.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16Jun2024 21:50:58.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Jun2024 21:50:58.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Jun2024 21:50:58.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Jun2024 21:50:58.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Jun2024 21:50:59.000] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
+[16Jun2024 21:50:59.000] [Server thread/INFO] [simplelogin/]: Shutting down player login handler
+[16Jun2024 21:50:59.000] [Server thread/INFO] [simplelogin/]: Disabling all plugins
+[16Jun2024 21:50:59.001] [Server thread/INFO] [simplelogin/]: Saving all entries
+[16Jun2024 21:50:59.003] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
+[16Jun2024 21:50:59.003] [RCON Client /172.21.0.2 #5/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.21.0.2 shutting down
+[16Jun2024 21:50:59.003] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.21.0.2 stopped
