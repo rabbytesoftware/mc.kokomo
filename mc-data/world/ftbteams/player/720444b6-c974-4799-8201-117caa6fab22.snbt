@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "char2cs"
 		"ftbteams:description": ""
-		"ftbteams:color": "#5A59FF"
+		"ftbteams:color": "#B859FF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 		"ftbchunks:allow_explosions": 0b
