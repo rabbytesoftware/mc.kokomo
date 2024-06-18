@@ -1,6 +1,6 @@
 # Used to store server-related config file on the client
 # Set it to a single value on different servers if you want them to share config
-server_id = "760bd941-6dd6-402c-9452-a7ccfb9ee156"
+server_id = "f72702e9-df8c-49cd-9ac8-11e0e9bfa435"
 default_language = "en_us"
 debug = false
 disable_crowdin = false
