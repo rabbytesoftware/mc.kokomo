@@ -11,6 +11,8 @@
 # Forums: http://www.spigotmc.org/
 
 settings:
+  bungeecord: false
+  save-user-cache-on-stop-only: false
   debug: false
   sample-count: 12
   player-shuffle: 0
@@ -30,8 +32,6 @@ settings:
       max: 2048.0
   log-villager-deaths: true
   log-named-deaths: true
-  bungeecord: false
-  save-user-cache-on-stop-only: false
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -61,10 +61,10 @@ world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
     verbose: true
-    mob-spawn-range: 6
     merge-radius:
       exp: 3.0
       item: 2.5
+    mob-spawn-range: 6
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     growth:
