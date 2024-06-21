@@ -1,0 +1,68 @@
+93ED5570D59F6F592D2536C4BC69740B837F2DD1488A881109ABEEC88E2BA5A4:
+  name: 'New Claim #1'
+  owner: 720444b6-c974-4799-8201-117caa6fab22
+  world: world
+  chunks:
+    '0':
+      x: -20
+      z: 9
+    '1':
+      x: -22
+      z: 11
+    '2':
+      x: -22
+      z: 10
+    '3':
+      x: -21
+      z: 11
+    '4':
+      x: -22
+      z: 9
+    '5':
+      x: -20
+      z: 11
+    '6':
+      x: -21
+      z: 10
+    '7':
+      x: -21
+      z: 9
+    '8':
+      x: -20
+      z: 10
+  permissions: {}
+  users: {}
+493B99D7F5BEB56528117D8F052CCB35603CB18E9F8612349764B5CF8AA16133:
+  name: EROS PUTO
+  owner: 720444b6-c974-4799-8201-117caa6fab22
+  world: world
+  chunks:
+    '0':
+      x: -7
+      z: 26
+    '1':
+      x: -6
+      z: 26
+    '2':
+      x: -7
+      z: 25
+    '3':
+      x: -6
+      z: 25
+  permissions:
+    BREAK: NONE
+    ENTITY_DAMAGE_MISC: NONE
+    FIRE_USE: NONE
+    CHEST_OPEN: NONE
+    ENTITY_DAMAGE_HOSTILE: NONE
+    VEHICLE_PLACE: NONE
+    EXPLODE: NONE
+    ENT_PLACE: NONE
+    INTERACT: NONE
+    ENTITY_DAMAGE_FRIENDLY: NONE
+    BUILD: NONE
+    ENTER: NONE
+    ENTITY_DAMAGE_NL: NONE
+    ENTITY_DAMAGE_VEHICLE: NONE
+    ITEM_DROP: NONE
+  users: {}
