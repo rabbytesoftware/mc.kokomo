@@ -11,7 +11,7 @@
 		bonusChunkForceloads = 0
 
 		[playerConfig.claims.protection]
-			fromParty = false
+			fromParty = true
 			fromAllyParties = true
 			blocksFromPlayers = 1
 			blocksFromMobs = 1
