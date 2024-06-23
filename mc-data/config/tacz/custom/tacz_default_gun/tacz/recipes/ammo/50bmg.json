@@ -1,11 +1,6 @@
 {
   "materials": [
-	{
-		"item": {
-		  "tag": "forge:ingots/netherite"
-		},
-		"count": 1
-	},
+
     {
       "item": {
         "tag": "forge:ingots/iron"
