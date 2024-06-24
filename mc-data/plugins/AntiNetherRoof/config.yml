@@ -1,0 +1,16 @@
+not-allowed:
+- '&2%player% &aYou are not allowed on the nether roof'
+- '&aPlease do not move, type &2/spawn &ato get out'
+enable-command-on-entry: false
+freeze-on-entry: false
+command-on-entry:
+- spawn %player%
+potion-effect-strength: 100
+nether-roof-height: 127.0
+teleport-down: false
+teleport-down-message:
+- '&2%player% &aYou have been teleported to the nearest safest place as you attempted
+  to enter the nether roof'
+world-blacklist: false
+worlds-blacklisted:
+- enter some nether world to blacklist it

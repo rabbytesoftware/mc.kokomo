@@ -144,6 +144,8 @@ world-settings:
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000
+  worldeditregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false

@@ -5,13 +5,13 @@
       "item": {
         "tag": "forge:ingots/iron"
       },
-      "count": 16
+      "count": 32
     },
     {
       "item": {
         "tag": "forge:ingots/copper"
       },
-      "count": 72
+      "count": 144
     },
     {
       "item": {
@@ -22,7 +22,7 @@
       "item": {
         "tag": "forge:gunpowder"
       },
-      "count": 24
+      "count": 48
     }
   ],
   "result": {
