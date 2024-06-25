@@ -1,5 +1,3 @@
-version: '3'
-
 services:
 
   # ===================
@@ -10,13 +8,12 @@ services:
     ports:
       - "25565:25565/tcp"
       - "25565:25565/udp"
-      - "25049:25049/tcp"
     environment:
       EULA: "TRUE"
-      RCON_PASSWORD: "7355608"
+      RCON_PASSWORD: ${RCON_PASSWORD}
       TYPE: KETTING
       VERSION: "1.20.1"
-      MEMORY: 6G
+      MEMORY: ${MEMORY}
     depends_on:
       restore-backup:
         condition: service_completed_successfully
@@ -39,7 +36,7 @@ services:
       mc:
         condition: service_healthy
     environment:
-      BACKUP_INTERVAL: "12h"
+      BACKUP_INTERVAL: ${BACKUP_INTERVAL}
       RCON_HOST: mc
       INITIAL_DELAY: 0 # since this service waits for mc to be healthy, no initial delay is needed
       PRE_BACKUP_SCRIPT: |
@@ -82,7 +79,7 @@ services:
   grafana:
     image: grafana/grafana-oss:${GRAFANA_VERSION:-8.3.3}
     ports:
-      - "3000:3000"
+      - "25566:3000"
     volumes:
       - grafana-lib:/var/lib/grafana
       - ./grafana/provisioning:/etc/grafana/provisioning
@@ -99,10 +96,10 @@ services:
       RWA_USERNAME: admin
       RWA_PASSWORD: admin
       RWA_ADMIN: "TRUE"
-      RWA_RCON_HOST: mc # is referring to the service name 'mc' declared below
-      RWA_RCON_PASSWORD: "7355608" # needs to match the password configured for the container, see RCON_PASSWORD below
+      RWA_RCON_HOST: mc
+      RWA_RCON_PASSWORD: ${RCON_PASSWORD}
     ports:
-      - "4326:4326"
+      - "25567:4326"
       - "4327:4327"
 
 volumes:
