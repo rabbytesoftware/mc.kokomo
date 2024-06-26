@@ -1,11 +1,11 @@
 data:
   version: 11.0
   timerValueMemory: 120
-  entries: 3
+  entries: 6
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 143634
+  catalogFetchCooldown: 143505
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -91,3 +91,9 @@ timers:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 154
   71d31724-00c7-41c6-8b09-dfa3602e7a5e:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 131
+  1e5a2c2d-a019-4375-94ea-5e0af6f19be8:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 122
+  fcd47392-7a2d-410f-8741-d8c334d597b5:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 121
+  03949946-5efd-4e19-9158-6bdd49db5a3f:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 15

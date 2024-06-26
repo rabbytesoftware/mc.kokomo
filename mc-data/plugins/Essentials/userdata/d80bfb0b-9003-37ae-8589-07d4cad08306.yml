@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1719357612381
-  login: 1719357278080
+  logout: 1719361295414
+  login: 1719361180668
 money: '0'
 last-account-name: char2cs
 logoutlocation:
-  world: bd00006e-a827-49e2-a8c2-9a4bda199e52
+  world: 03949946-5efd-4e19-9158-6bdd49db5a3f
   world-name: world
-  x: 2027.8385993297431
-  y: 192.31814239453593
-  z: -2103.423819434304
-  yaw: -149.6423797607422
-  pitch: 5.6334733963012695
+  x: -600.5
+  y: 134.0
+  z: -204.5
+  yaw: 3.7863218784332275
+  pitch: 0.0
 lastlocation:
   world: bd00006e-a827-49e2-a8c2-9a4bda199e52
   world-name: world

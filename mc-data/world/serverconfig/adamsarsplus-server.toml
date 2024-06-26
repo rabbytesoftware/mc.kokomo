@@ -1,0 +1,4 @@
+#SERVER CONFIGURATION
+#can players level up
+LevelingSystemEnabled = false
+
