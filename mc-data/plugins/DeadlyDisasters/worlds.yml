@@ -12,29 +12,29 @@ world:
     custom_mob_spawning: true
     config: DEFAULT
   disasters:
-    SINKHOLE: true
-    CAVEIN: true
-    TORNADO: true
-    GEYSER: true
+    SINKHOLE: false
+    CAVEIN: false
+    TORNADO: false
+    GEYSER: false
     PLAGUE: true
     ACIDSTORM: true
-    EXTREMEWINDS: true
+    EXTREMEWINDS: false
     SOULSTORM: true
     BLIZZARD: true
     SANDSTORM: true
-    EARTHQUAKE: true
+    EARTHQUAKE: false
     TSUNAMI: true
-    METEORSHOWERS: true
+    METEORSHOWERS: false
     ENDSTORM: true
-    SUPERNOVA: true
-    HURRICANE: true
+    SUPERNOVA: false
+    HURRICANE: false
     PURGE: true
-    CUSTOM: true
+    CUSTOM: false
   external:
     region_plugins:
       region_protection: true
       ignore_weather_effects_in_regions: true
-      cure_plague_in_regions: true
+      cure_plague_in_regions: false
   custom_table:
     level_1: 30
     level_2: 25
@@ -57,29 +57,29 @@ world/DIM1:
     custom_mob_spawning: true
     config: DEFAULT
   disasters:
-    SINKHOLE: true
-    CAVEIN: true
-    TORNADO: true
-    GEYSER: true
+    SINKHOLE: false
+    CAVEIN: false
+    TORNADO: false
+    GEYSER: false
     PLAGUE: true
     ACIDSTORM: true
-    EXTREMEWINDS: true
+    EXTREMEWINDS: false
     SOULSTORM: true
     BLIZZARD: true
     SANDSTORM: true
-    EARTHQUAKE: true
+    EARTHQUAKE: false
     TSUNAMI: true
-    METEORSHOWERS: true
+    METEORSHOWERS: false
     ENDSTORM: true
-    SUPERNOVA: true
-    HURRICANE: true
+    SUPERNOVA: false
+    HURRICANE: false
     PURGE: true
-    CUSTOM: true
+    CUSTOM: false
   external:
     region_plugins:
       region_protection: true
       ignore_weather_effects_in_regions: true
-      cure_plague_in_regions: true
+      cure_plague_in_regions: false
   custom_table:
     level_1: 30
     level_2: 25
@@ -102,24 +102,24 @@ world/DIM-1:
     custom_mob_spawning: true
     config: DEFAULT
   disasters:
-    SINKHOLE: true
-    CAVEIN: true
+    SINKHOLE: false
+    CAVEIN: false
     TORNADO: false
-    GEYSER: true
+    GEYSER: false
     PLAGUE: true
     ACIDSTORM: true
-    EXTREMEWINDS: true
+    EXTREMEWINDS: false
     SOULSTORM: true
     BLIZZARD: true
     SANDSTORM: true
-    EARTHQUAKE: true
+    EARTHQUAKE: false
     TSUNAMI: true
-    METEORSHOWERS: true
+    METEORSHOWERS: false
     ENDSTORM: true
-    SUPERNOVA: true
-    HURRICANE: true
+    SUPERNOVA: false
+    HURRICANE: false
     PURGE: true
-    CUSTOM: true
+    CUSTOM: false
   external:
     region_plugins:
       region_protection: true

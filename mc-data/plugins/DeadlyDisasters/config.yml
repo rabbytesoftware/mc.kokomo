@@ -29,18 +29,18 @@ messages:
   # If set to true then players will be notified in chat of any ongoing limited time events
   event_notifications: true
   destructive:
-    level 1: '&aLevel: 1 %disaster% &6event starting at: &a%location% &e(%player%)'
-    level 2: '&2Level: 2 %disaster% &6event starting at: &a%location% &e(%player%)'
-    level 3: '&bLevel: 3 %disaster% &6event starting at: &a%location% &e(%player%)'
-    level 4: '&eLevel: 4 %disaster% &6event starting at: &a%location% &e(%player%)'
-    level 5: '&cLevel: 5 %disaster% &6event starting at: &a%location% &e(%player%)'
-    level 6: '&4&lLevel: 6 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 1: '&aNivel: 1 %disaster% &6evento arranco en: &a%location% &e(%player%)'
+    level 2: '&2Nivel: 2 %disaster% &6evento arranco en: &a%location% &e(%player%)'
+    level 3: '&bNivel: 3 %disaster% &6evento arranco en: &a%location% &e(%player%)'
+    level 4: '&eNivel: 4 %disaster% &6evento arranco en: &a%location% &e(%player%)'
+    level 5: '&cNivel: 5 %disaster% &6evento arranco en: &a%location% &e(%player%)'
+    level 6: '&4&lNivel: 6 %disaster% &6evento arranco en: &a%location% &e(%player%)'
   weather:
-    level 1: '&6A &2very short %disaster% &6is about to begin'
-    level 2: '&6A &ashort %disaster% &6is about to begin'
-    level 3: '&6A &blong %disaster% &6is about to begin'
-    level 4: '&6A &every long %disaster% &6is about to begin'
-    level 5: '&6An &cextremely long %disaster% &6is about to begin'
+    level 1: '&6A &2Muy corto %disaster% &6va a comenzar'
+    level 2: '&6A &aCorto %disaster% &6va a comenzar'
+    level 3: '&6A &bUn largo %disaster% &6va a comenzar'
+    level 4: '&6A &eUn muy largo %disaster% &6va a comenzarn'
+    level 5: '&6An &cUn extremadamente largo %disaster% &6va a comenzar'
     winds:
       level 1: '&aVery light &fWinds &6are approaching'
       level 2: '&bLight &fWinds &6are approaching'
@@ -55,10 +55,10 @@ messages:
     pitch: 1.0
   misc:
     plague:
-      started: '&eA mob has contracted the &0Black Plague'
+      started: '&eUn mob tiene la &0Plaga negra (Enfermedad del papu)'
     purge:
-      started: 'Level: %level% &cHorde is assembling, &6%player% &cwill be purged...'
-      ended: '&eThe horde is clearing up..'
+      started: 'Level: %level% &cLa horda se esta juntando, &6%player% &csera eliminado...'
+      ended: '&eLa horda se canso y se fue, nt..'
     world_messages:
       # Allows disaster difficulty messages to be sent when a player switches or joins worlds
       allow_world_messages: true

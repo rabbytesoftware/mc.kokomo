@@ -268,8 +268,6 @@ player-commands:
   - geoip.show
   - help
   - helpop
-  - home
-  - home.others
   - ignore
   - info
   - itemdb

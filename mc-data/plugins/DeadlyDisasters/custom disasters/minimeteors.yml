@@ -1,0 +1,140 @@
+settings:
+    name: 'minimeteors'
+    title: '&dMini Meteors'
+    start_delay: 0
+    natural: false
+    min_height: 60
+    frequency: 0.3
+    start_message: '%level_char%Level: %level% &dMini Meteor &6shower is about to begin'
+    environments:
+    - normal
+    game_version: 1.17
+    plugin_version: 9.0
+core:
+    level 1:
+        operation: 'ordered'
+        interval_seconds: 0
+        events:
+            event 1:
+                disaster 1:
+                    type: meteorshower
+                    level: 1
+                    spawnRate: 4
+                    maxMeteors: 50
+                    normalMeteor:
+                        speed: 2
+                        minSize: 2
+                        maxSize: 3
+                    explodingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        damage: 7
+                    splittingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        impactSpeed: 2
+    level 2:
+        operation: 'ordered'
+        interval_seconds: 0
+        events:
+            event 1:
+                disaster 1:
+                    type: meteorshower
+                    level: 2
+                    spawnRate: 4
+                    maxMeteors: 50
+                    normalMeteor:
+                        speed: 2
+                        minSize: 2
+                        maxSize: 3
+                    explodingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        damage: 7
+                    splittingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        impactSpeed: 2
+    level 3:
+        operation: 'ordered'
+        interval_seconds: 0
+        events:
+            event 1:
+                disaster 1:
+                    type: meteorshower
+                    level: 3
+                    spawnRate: 4
+                    maxMeteors: 50
+                    normalMeteor:
+                        speed: 2
+                        minSize: 2
+                        maxSize: 3
+                    explodingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        damage: 7
+                    splittingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        impactSpeed: 2
+    level 4:
+        operation: 'ordered'
+        interval_seconds: 0
+        events:
+            event 1:
+                disaster 1:
+                    type: meteorshower
+                    level: 4
+                    spawnRate: 4
+                    maxMeteors: 50
+                    normalMeteor:
+                        speed: 2
+                        minSize: 2
+                        maxSize: 3
+                    explodingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        damage: 7
+                    splittingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        impactSpeed: 2
+    level 5:
+        operation: 'ordered'
+        interval_seconds: 0
+        events:
+            event 1:
+                disaster 1:
+                    type: meteorshower
+                    level: 5
+                    spawnRate: 4
+                    maxMeteors: 50
+                    normalMeteor:
+                        speed: 2
+                        minSize: 2
+                        maxSize: 3
+                    explodingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        damage: 7
+                    splittingMeteor:
+                        speed: 2.5
+                        minSize: 2
+                        maxSize: 3
+                        impactSpeed: 2
+catalog:
+    item: 'magma_block'
+    name: '&d&lMini Meteors'
+    description: '&bAdds deadly mini meteor showers'
+    author: 'davidclue'
+    version: 1.0
+    id: 2
