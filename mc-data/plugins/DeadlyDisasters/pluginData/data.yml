@@ -1,11 +1,11 @@
 data:
   version: 11.0
   timerValueMemory: 120
-  entries: 30
+  entries: 33
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 139698
+  catalogFetchCooldown: 133856
   currentConfig: DEFAULT
   favored: Soul Storm
   disliked: 'null'
@@ -145,3 +145,12 @@ timers:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 29
   add4b54c-62f1-42fd-bfc8-6c4977ebfd10:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 155
+  4a25ccdd-b4db-46d7-af70-3fe62242eb21:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 113
+    95a3dfdc-146b-3f78-8b3c-aa38268c59ed: 150
+  bf7241e8-bc20-45f3-aa36-153600a82da7:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 118
+    95a3dfdc-146b-3f78-8b3c-aa38268c59ed: 173
+  8af61f14-bec7-4a69-9feb-6e5c3368a789:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 146
+    95a3dfdc-146b-3f78-8b3c-aa38268c59ed: 134
