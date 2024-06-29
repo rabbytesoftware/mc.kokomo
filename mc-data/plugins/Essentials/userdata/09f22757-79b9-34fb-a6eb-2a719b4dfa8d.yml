@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1719678335100
-  login: 1719677369441
+  logout: 1719702246469
+  login: 1719701557533
 money: '0'
 last-account-name: TESTING
 logoutlocation:
   world: d021e65b-9e26-4d34-9eba-f3366cbb2059
   world-name: world
-  x: 42.97536731282484
-  y: 113.0
-  z: -10.086008023641142
-  yaw: 90.93043518066406
-  pitch: -3.273787260055542
+  x: -0.4617697690551097
+  y: 219.5
+  z: 18.426220584966515
+  yaw: 3.265122175216675
+  pitch: -4.897684574127197
 lastlocation:
   world: d021e65b-9e26-4d34-9eba-f3366cbb2059
   world-name: world

@@ -1,6 +1,8 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2024-06-29 22:06:03 +0000",
+      "minecraft:dripstone_caves": "2024-06-29 22:12:25 +0000",
       "minecraft:forest": "2024-06-29 15:22:04 +0000",
       "minecraft:meadow": "2024-06-29 15:21:34 +0000",
       "minecraft:plains": "2024-06-29 15:21:16 +0000"
@@ -40,6 +42,68 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-06-29 16:20:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-06-29 21:12:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2024-06-29 21:57:11 +0000",
+      "minecraft:zombie": "2024-06-29 21:22:48 +0000",
+      "minecraft:zombie_villager": "2024-06-29 22:42:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-06-29 21:22:48 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:horror_underthe_mantle": {
+    "criteria": {
+      "horror_underthe_mantle_0": "2024-06-29 21:44:39 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:pieceof_chaos": {
+    "criteria": {
+      "pieceof_chaos_0": "2024-06-29 21:44:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-06-29 21:48:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-06-29 21:54:50 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "pillager_outpost": "2024-06-29 22:06:32 +0000"
+    },
+    "done": false
+  },
+  "nova_structures:adventure/find_pillager_outpost": {
+    "criteria": {
+      "minecraft:pillager_outpost": "2024-06-29 22:06:32 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/radgill_bucket": {
+    "criteria": {
+      "radgill_bucket": "2024-06-29 22:44:50 +0000"
     },
     "done": true
   },

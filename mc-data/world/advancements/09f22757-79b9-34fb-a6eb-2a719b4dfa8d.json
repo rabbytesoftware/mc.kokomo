@@ -25,21 +25,22 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:dripstone_caves": "2024-06-29 22:54:43 +0000",
       "minecraft:forest": "2024-06-29 16:22:30 +0000",
       "minecraft:meadow": "2024-06-29 15:35:48 +0000",
       "minecraft:plains": "2024-06-29 15:42:44 +0000"
     },
     "done": false
   },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2024-06-29 16:15:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-06-29 16:15:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-06-29 16:15:34 +0000"
     },
     "done": true
   },

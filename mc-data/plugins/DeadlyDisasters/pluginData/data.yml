@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 130802
+  catalogFetchCooldown: 113292
   currentConfig: DEFAULT
   favored: Supernova
   disliked: 'null'
@@ -158,8 +158,8 @@ timers:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 166
     09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 171
   d021e65b-9e26-4d34-9eba-f3366cbb2059:
-    d80bfb0b-9003-37ae-8589-07d4cad08306: 119
-    09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 116
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 40
+    09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 164
   8e567ba4-9f82-4340-96ae-bf163a3ae1c4:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 162
     09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 141

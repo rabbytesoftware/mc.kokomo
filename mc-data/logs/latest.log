@@ -1,0 +1,785 @@
+[29Jun2024 22:49:34.882] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.1-0.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, org.kettingpowered.server, --fml.mcpVersion, 20230612.114412]
+[29Jun2024 22:49:34.886] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 6.9.5-arch1-1
+[29Jun2024 22:49:35.672] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Jun2024 22:49:35.726] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/data/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23143!/ Service=ModLauncher Env=SERVER
+[29Jun2024 22:49:36.778] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module Reflect from [].
+[29Jun2024 22:49:36.783] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module jbcrypt from [].
+[29Jun2024 22:49:36.850] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module com.github.benmanes.caffeine from [].
+[29Jun2024 22:49:36.902] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module com.google.guice from [].
+[29Jun2024 22:49:36.918] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module aopalliance from [].
+[29Jun2024 22:49:36.920] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Tried to load duplicate module javax.inject. Will ignore this module and all jarjar entries in this jar.
+[29Jun2024 22:49:36.921] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: The source jar: plasmovoice is supposed to contain a jar: META-INF/jars/javax.inject-1.jar but it does not exist.
+[29Jun2024 22:49:36.940] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module Registrate.MC1._20 from [].
+[29Jun2024 22:49:36.978] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:36.987] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:36.995] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras.beta._8 from [].
+[29Jun2024 22:49:37.001] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module mclib from [].
+[29Jun2024 22:49:37.009] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras.beta._2 from [].
+[29Jun2024 22:49:37.019] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.027] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras.beta._6 from [].
+[29Jun2024 22:49:37.035] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.044] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras.rc._4 from [].
+[29Jun2024 22:49:37.054] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.061] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.068] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.078] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.117] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module MixinExtras from [].
+[29Jun2024 22:49:37.129] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module Reflect from [].
+[29Jun2024 22:49:37.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Tried to load duplicate module javax.inject. Will ignore this module and all jarjar entries in this jar.
+[29Jun2024 22:49:37.165] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module com.github.benmanes.caffeine from [].
+[29Jun2024 22:49:37.183] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module jbcrypt from [].
+[29Jun2024 22:49:37.187] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module mclib from [].
+[29Jun2024 22:49:37.193] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module Registrate.MC1._20 from [].
+[29Jun2024 22:49:37.209] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module aopalliance from [].
+[29Jun2024 22:49:37.234] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.AbstractModProvider/]: [Ketting] Force including module com.google.guice from [].
+[29Jun2024 22:49:37.248] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[29Jun2024 22:49:37.249] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[29Jun2024 22:49:40.615] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jun2024 22:49:40.862] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[29Jun2024 22:49:40.898] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Jun2024 22:49:40.901] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Jun2024 22:49:40.905] [main/WARN] [mixin/]: Reference map 'ritchiesprojectilelib-forge-refmap.json' for ritchiesprojectilelib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Jun2024 22:49:41.109] [main/WARN] [mixin/]: Reference map 'ars_artifice-refmap.json' for ars_artifice.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Jun2024 22:49:43.377] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[29Jun2024 22:49:43.693] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[29Jun2024 22:49:43.694] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[29Jun2024 22:49:43.851] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[29Jun2024 22:49:44.256] [main/INFO] [org.kettingpowered.ketting.core.Ketting/]: KettingCore 1.4 for Minecraft 1.20.1 initializing...
+[29Jun2024 22:49:44.259] [main/INFO] [org.kettingpowered.ketting.core.injectprotect.InjectProtect/]: Booting up InjectProtect
+[29Jun2024 22:49:44.267] [main/INFO] [org.kettingpowered.ketting.core.Ketting/]: Loaded JDBC driver for SQLite
+[29Jun2024 22:49:48.509] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 143 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;, Lnet/minecraft/world/entity/vehicle/Boat;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[29Jun2024 22:49:52.067] [modloading-worker-0/WARN] [APTweaks(Core)/]: ⚠ The log level for APTweaks(Core) is set to ALL, this will log all debug information and will cause performance issues. This is expected in a developer environment or during large-scale troubleshooting. However, rest assured, to mitigate performance concerns, the debug mode for this module has been automatically adjusted to an info level! If you require debug information, simply use the /aptweaks debug <module> command to re-enable debug mode.
+[29Jun2024 22:49:52.070] [modloading-worker-0/WARN] [APTweaks(Core)/]: Adjusting log level for APTweaks(Core) from ALL to INFO, for performance reasons!
+[29Jun2024 22:49:52.071] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Core) from ALL to INFO
+[29Jun2024 22:49:52.133] [modloading-worker-0/INFO] [APTweaks(Core)/]: Register Adaptive Performance Tweaks: Core common config ...
+[29Jun2024 22:49:52.315] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[29Jun2024 22:49:52.489] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[29Jun2024 22:49:52.929] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29Jun2024 22:49:52.935] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[29Jun2024 22:49:52.943] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[29Jun2024 22:49:52.959] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[29Jun2024 22:49:52.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[29Jun2024 22:49:52.966] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[29Jun2024 22:49:52.984] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[29Jun2024 22:49:52.986] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[29Jun2024 22:49:53.410] [modloading-worker-0/INFO] [me.drex.antixray.AntiXray/]: Successfully initialized antixray on forge
+[29Jun2024 22:49:53.476] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.480] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.480] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.481] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.481] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.482] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.482] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[29Jun2024 22:49:53.491] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
+[29Jun2024 22:49:53.824] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id powah:packet
+[29Jun2024 22:49:54.464] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[29Jun2024 22:49:54.472] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[29Jun2024 22:49:55.789] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[29Jun2024 22:49:55.789] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[29Jun2024 22:49:56.711] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[29Jun2024 22:49:56.865] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[29Jun2024 22:49:56.980] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[29Jun2024 22:49:57.002] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[29Jun2024 22:49:57.291] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[29Jun2024 22:49:57.291] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[29Jun2024 22:49:57.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[29Jun2024 22:49:57.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[29Jun2024 22:49:57.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[29Jun2024 22:49:57.320] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[29Jun2024 22:49:57.338] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[29Jun2024 22:49:57.339] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[29Jun2024 22:49:57.339] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[29Jun2024 22:49:57.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[29Jun2024 22:49:57.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[29Jun2024 22:49:57.345] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[29Jun2024 22:49:57.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[29Jun2024 22:49:57.354] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beach Villagers...
+[29Jun2024 22:49:57.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[29Jun2024 22:49:57.361] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[29Jun2024 22:49:57.362] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[29Jun2024 22:49:57.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[29Jun2024 22:49:57.386] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[29Jun2024 22:49:57.394] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[29Jun2024 22:49:57.395] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[29Jun2024 22:49:57.395] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[29Jun2024 22:49:57.397] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[29Jun2024 22:49:57.398] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[29Jun2024 22:49:57.400] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[29Jun2024 22:49:57.404] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[29Jun2024 22:49:57.406] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[29Jun2024 22:49:57.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[29Jun2024 22:49:57.413] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[29Jun2024 22:49:57.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[29Jun2024 22:49:57.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[29Jun2024 22:49:57.420] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[29Jun2024 22:49:57.421] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[29Jun2024 22:49:57.434] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[29Jun2024 22:49:57.437] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[29Jun2024 22:49:57.439] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[29Jun2024 22:49:57.444] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[29Jun2024 22:49:57.445] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[29Jun2024 22:49:57.445] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[29Jun2024 22:49:57.446] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[29Jun2024 22:49:57.447] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[29Jun2024 22:49:57.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[29Jun2024 22:49:57.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[29Jun2024 22:49:57.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[29Jun2024 22:49:57.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[29Jun2024 22:49:57.454] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[29Jun2024 22:49:57.455] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[29Jun2024 22:49:57.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[29Jun2024 22:49:57.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[29Jun2024 22:49:57.462] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[29Jun2024 22:49:57.463] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[29Jun2024 22:49:57.463] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[29Jun2024 22:49:57.465] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[29Jun2024 22:49:57.466] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[29Jun2024 22:49:57.469] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[29Jun2024 22:49:57.476] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[29Jun2024 22:49:57.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[29Jun2024 22:49:57.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[29Jun2024 22:49:57.479] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[29Jun2024 22:49:57.481] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[29Jun2024 22:49:57.483] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[29Jun2024 22:49:57.493] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[29Jun2024 22:49:57.494] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[29Jun2024 22:49:57.496] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[29Jun2024 22:49:57.496] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[29Jun2024 22:49:57.504] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[29Jun2024 22:49:57.505] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[29Jun2024 22:49:57.507] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[29Jun2024 22:49:57.509] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[29Jun2024 22:49:57.510] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[29Jun2024 22:49:57.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[29Jun2024 22:49:57.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[29Jun2024 22:49:57.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[29Jun2024 22:49:57.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[29Jun2024 22:49:57.511] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[29Jun2024 22:49:57.512] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[29Jun2024 22:49:57.512] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[29Jun2024 22:49:57.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[29Jun2024 22:49:57.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[29Jun2024 22:49:57.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[29Jun2024 22:49:57.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[29Jun2024 22:49:57.528] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[29Jun2024 22:49:57.528] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[29Jun2024 22:49:57.528] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[29Jun2024 22:49:57.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[29Jun2024 22:49:57.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[29Jun2024 22:49:57.547] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[29Jun2024 22:49:57.548] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[29Jun2024 22:49:57.548] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[29Jun2024 22:49:57.548] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[29Jun2024 22:49:57.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[29Jun2024 22:49:57.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[29Jun2024 22:49:57.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[29Jun2024 22:49:57.550] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[29Jun2024 22:49:57.551] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[29Jun2024 22:49:57.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[29Jun2024 22:49:57.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[29Jun2024 22:49:57.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[29Jun2024 22:49:57.556] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[29Jun2024 22:49:57.561] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[29Jun2024 22:49:57.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[29Jun2024 22:49:57.563] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[29Jun2024 22:49:57.564] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[29Jun2024 22:49:57.565] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[29Jun2024 22:49:57.567] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[29Jun2024 22:49:57.571] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[29Jun2024 22:49:57.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[29Jun2024 22:49:57.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[29Jun2024 22:49:57.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[29Jun2024 22:49:57.582] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[29Jun2024 22:49:57.583] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[29Jun2024 22:49:57.590] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[29Jun2024 22:49:57.591] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[29Jun2024 22:49:57.592] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[29Jun2024 22:49:57.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[29Jun2024 22:49:57.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[29Jun2024 22:49:57.596] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[29Jun2024 22:49:57.596] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[29Jun2024 22:49:57.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[29Jun2024 22:49:57.603] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[29Jun2024 22:49:57.604] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[29Jun2024 22:49:57.608] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[29Jun2024 22:49:57.610] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[29Jun2024 22:49:57.613] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[29Jun2024 22:49:57.625] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[29Jun2024 22:49:57.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[29Jun2024 22:49:57.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[29Jun2024 22:49:57.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[29Jun2024 22:49:57.628] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[29Jun2024 22:49:57.631] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[29Jun2024 22:49:57.632] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[29Jun2024 22:49:57.633] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[29Jun2024 22:49:57.634] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[29Jun2024 22:49:57.634] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[29Jun2024 22:49:57.643] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[29Jun2024 22:49:57.644] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[29Jun2024 22:49:57.644] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[29Jun2024 22:49:57.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[29Jun2024 22:49:57.649] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[29Jun2024 22:49:57.650] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[29Jun2024 22:49:57.651] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[29Jun2024 22:49:57.652] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[29Jun2024 22:49:57.654] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[29Jun2024 22:49:57.656] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[29Jun2024 22:49:57.656] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[29Jun2024 22:49:57.662] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[29Jun2024 22:49:57.663] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[29Jun2024 22:49:57.664] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[29Jun2024 22:49:57.667] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[29Jun2024 22:49:57.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[29Jun2024 22:49:57.668] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[29Jun2024 22:49:57.669] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[29Jun2024 22:49:57.683] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[29Jun2024 22:49:57.691] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[29Jun2024 22:49:57.692] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[29Jun2024 22:49:57.694] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[29Jun2024 22:49:57.695] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[29Jun2024 22:49:57.715] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[29Jun2024 22:49:57.716] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[29Jun2024 22:49:57.717] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[29Jun2024 22:49:57.718] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[29Jun2024 22:49:57.721] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[29Jun2024 22:49:57.722] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[29Jun2024 22:49:57.724] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[29Jun2024 22:49:57.727] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[29Jun2024 22:49:57.728] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[29Jun2024 22:49:57.861] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /data/config/quark-common.toml is not correct. Correcting
+[29Jun2024 22:49:58.079] [main/INFO] [zeta-internal/]: Dispatching ZRegister to 3 listeners
+[29Jun2024 22:49:58.085] [main/INFO] [zeta-internal/]: Dispatching ZRegister$Post to 1 listener
+[29Jun2024 22:49:58.086] [main/INFO] [quark-zeta/]: Dispatching ZRegister to 98 listeners
+[29Jun2024 22:49:58.799] [main/INFO] [quark-zeta/]: Dispatching ZRegister$Post to 6 listeners
+[29Jun2024 22:50:00.793] [main/INFO] [Moonlight/]: Initialized block sets in 24ms
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.850] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:00.851] [main/INFO] [Create Deco/]: placard tooltip was null
+[29Jun2024 22:50:02.718] [main/INFO] [quark-zeta/]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[29Jun2024 22:50:02.934] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[29Jun2024 22:50:02.935] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[29Jun2024 22:50:02.958] [main/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 48 listeners
+[29Jun2024 22:50:02.990] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[29Jun2024 22:50:02.997] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
+[29Jun2024 22:50:03.197] [modloading-worker-0/INFO] [com.logprot.Logprot/]: Shields up!
+[29Jun2024 22:50:03.377] [modloading-worker-0/ERROR] [patchouli/]: Failed to load book ars_creo:artificers_notes defined by mod ars_creo, skipping
+java.lang.IllegalArgumentException: Book ars_creo:artificers_notes has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
+	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.common.book.BookRegistry.lambda$init$3(BookRegistry.java:75) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at vazkii.patchouli.common.book.BookRegistry.init(BookRegistry.java:70) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.forge.common.ForgeModInitializer.onInitialize(ForgeModInitializer.java:76) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.forge.common.__ForgeModInitializer_onInitialize_FMLCommonSetupEvent.invoke(.dynamic) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.1-0.2.32.jar%23376!/:47.3.1]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.1-0.2.32.jar%23375!/:1.0]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[29Jun2024 22:50:03.390] [modloading-worker-0/ERROR] [patchouli/]: Failed to load book adamsarsplus:example defined by mod adamsarsplus, skipping
+java.lang.IllegalArgumentException: Book adamsarsplus:example has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
+	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.common.book.BookRegistry.lambda$init$3(BookRegistry.java:75) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at vazkii.patchouli.common.book.BookRegistry.init(BookRegistry.java:70) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.forge.common.ForgeModInitializer.onInitialize(ForgeModInitializer.java:76) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at vazkii.patchouli.forge.common.__ForgeModInitializer_onInitialize_FMLCommonSetupEvent.invoke(.dynamic) ~[Patchouli-1.20.1-84-FORGE.jar%23338!/:1.20.1-84-FORGE]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23142!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.1-0.2.32.jar%23376!/:47.3.1]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.1-0.2.32.jar%23375!/:1.0]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[29Jun2024 22:50:03.412] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[29Jun2024 22:50:03.413] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[29Jun2024 22:50:03.414] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[29Jun2024 22:50:03.415] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[29Jun2024 22:50:03.417] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[29Jun2024 22:50:03.418] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[29Jun2024 22:50:03.418] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[29Jun2024 22:50:03.419] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[29Jun2024 22:50:03.419] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[29Jun2024 22:50:03.419] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[29Jun2024 22:50:03.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[29Jun2024 22:50:03.486] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[29Jun2024 22:50:03.490] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[29Jun2024 22:50:03.492] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 42 listeners
+[29Jun2024 22:50:04.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[29Jun2024 22:50:04.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[29Jun2024 22:50:04.403] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[29Jun2024 22:50:04.403] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[29Jun2024 22:50:04.404] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[29Jun2024 22:50:04.404] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[29Jun2024 22:50:04.404] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[29Jun2024 22:50:04.404] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[29Jun2024 22:50:04.404] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[29Jun2024 22:50:04.473] [main/INFO] [Moonlight/]: Initialized color sets in 53ms
+[29Jun2024 22:50:04.564] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Jun2024 22:50:04.565] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Jun2024 22:50:04.565] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 1 for type OVERWORLD
+[29Jun2024 22:50:04.566] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[29Jun2024 22:50:04.568] [main/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 48 listeners
+[29Jun2024 22:50:04.572] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 2 for type OVERWORLD
+[29Jun2024 22:50:04.676] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[29Jun2024 22:50:04.676] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[29Jun2024 22:50:05.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[29Jun2024 22:50:05.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[29Jun2024 22:50:05.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[29Jun2024 22:50:05.541] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[29Jun2024 22:50:05.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.0.16 Target: 17.0.16
+[29Jun2024 22:50:05.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[29Jun2024 22:50:05.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.1 Target: null
+[29Jun2024 22:50:05.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[29Jun2024 22:50:06.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[29Jun2024 22:50:06.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Jun2024 22:50:06.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.1-0.2.32 Target: 47.3.3
+[29Jun2024 22:50:06.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[29Jun2024 22:50:07.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[29Jun2024 22:50:07.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[29Jun2024 22:50:07.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[29Jun2024 22:50:17.414] [main/INFO] [org.kettingpowered.ketting.core.Ketting/]: Loaded 5 config values
+[29Jun2024 22:50:17.432] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jun2024 22:50:17.521] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+ultimatespawn (version 1.5.0 -> MISSING)
+Things may not work well.
+[29Jun2024 22:50:26.907] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23374!/assets/.mcassetsroot' uses unexpected schema
+[29Jun2024 22:50:26.908] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23374!/data/.mcassetsroot' uses unexpected schema
+[29Jun2024 22:50:26.974] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:ultimatespawn
+[29Jun2024 22:50:28.586] [main/INFO] [APTweaks(Core)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Core ...
+[29Jun2024 22:50:28.759] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[29Jun2024 22:50:28.779] [main/INFO] [zeta-internal/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[29Jun2024 22:50:28.781] [main/INFO] [quark-zeta/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[29Jun2024 22:50:29.042] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create:blaze_burner_fuel/special as it is missing following references: create_dd:seething_ablaze_spawn_egg (from Create-DnDesire-1.20.1-0.1a.Release-Early-Dev.jar)
+[29Jun2024 22:50:30.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/hellfire_burn as it's serializer returned null
+[29Jun2024 22:50:30.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botany_pots:ars_elemental/flashing_archwood as it's serializer returned null
+[29Jun2024 22:50:30.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/life_link as it's serializer returned null
+[29Jun2024 22:50:30.084] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/entrhalled as it's serializer returned null
+[29Jun2024 22:50:30.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_additions:ritual_chunk_loading as it's serializer returned null
+[29Jun2024 22:50:30.147] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/watery_grave as it's serializer returned null
+[29Jun2024 22:50:30.175] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/mana_shield as it's serializer returned null
+[29Jun2024 22:50:30.206] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 52 recipes
+[29Jun2024 22:50:30.385] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 6239 recipe advancements
+[29Jun2024 22:50:30.396] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 672 advancements
+[29Jun2024 22:50:30.447] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[29Jun2024 22:50:30.453] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[29Jun2024 22:50:30.475] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[29Jun2024 22:50:30.475] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[29Jun2024 22:50:30.476] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[29Jun2024 22:50:30.476] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[29Jun2024 22:50:30.476] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[29Jun2024 22:50:30.478] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[29Jun2024 22:50:30.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[29Jun2024 22:50:30.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[29Jun2024 22:50:30.479] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[29Jun2024 22:50:30.517] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[29Jun2024 22:50:39.418] [main/INFO] [zeta-internal/]: Dispatching ZTagsUpdated to 1 listener
+[29Jun2024 22:50:39.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29Jun2024 22:50:39.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Jun2024 22:50:39.755] [Server thread/INFO] [Minecraft/]: This server is running CraftBukkit version git-ketting-1.20.1-0.2.32 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[29Jun2024 22:50:40.369] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[29Jun2024 22:50:40.370] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[29Jun2024 22:50:40.373] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[29Jun2024 22:50:40.768] [Server thread/ERROR] [org.kettingpowered.ketting.core.Ketting/]: Could not inject block into Bukkit: SECURITYCRAFT_REINFORCED_POWDER_SNOW_CAULDRON. null
+[29Jun2024 22:50:40.773] [Server thread/ERROR] [org.kettingpowered.ketting.core.Ketting/]: Could not inject block into Bukkit: SECURITYCRAFT_REINFORCED_WATER_CAULDRON. Could not initialize class org.bukkit.craftbukkit.v1_20_R1.block.impl.CraftLayeredCauldron
+[29Jun2024 22:50:40.855] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Injected 6130 modded materials (4246 blocks, 1884 items)
+[29Jun2024 22:50:40.945] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Registered 1 commands
+[29Jun2024 22:50:40.945] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Jun2024 22:50:40.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Jun2024 22:50:40.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Jun2024 22:50:41.020] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Jun2024 22:50:41.247] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Loading remapper...
+[29Jun2024 22:50:41.796] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Loading patches...
+[29Jun2024 22:50:41.923] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Loaded 3 patches
+[29Jun2024 22:50:43.621] [Server thread/INFO] [me.mulemuledupe.simpletpa.SimpleTpa/]: [SimpleTpa] Loading SimpleTpa v7.1
+[29Jun2024 22:50:43.622] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.4.131
+[29Jun2024 22:50:44.042] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.3.1+6763-2e55f4f
+[29Jun2024 22:50:45.569] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@46798e6a]
+[29Jun2024 22:50:45.595] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Loading TAB v4.1.6
+[29Jun2024 22:50:45.595] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Loading SkinsRestorer v15.0.15
+[29Jun2024 22:50:45.595] [Server thread/INFO] [deadlydisasters.Main/]: [DeadlyDisasters] Loading DeadlyDisasters v11.0
+[29Jun2024 22:50:45.595] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.21.0-dev+93-3a6fdd9
+[29Jun2024 22:50:45.596] [Server thread/INFO] [me.iangry.antinetherroof.Main/]: [AntiNetherRoof] Loading AntiNetherRoof v1.2.5
+[29Jun2024 22:50:45.599] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.131
+[29Jun2024 22:50:47.069] [Server thread/INFO] [/]:         __    
+[29Jun2024 22:50:47.070] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.131
+[29Jun2024 22:50:47.071] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - CraftBukkit
+[29Jun2024 22:50:47.071] [Server thread/INFO] [/]: 
+[29Jun2024 22:50:47.084] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[29Jun2024 22:50:47.773] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[29Jun2024 22:50:50.536] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[29Jun2024 22:50:50.807] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[29Jun2024 22:50:51.020] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 5420ms)
+[29Jun2024 22:50:51.021] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[29Jun2024 22:50:51.040] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[29Jun2024 22:50:51.304] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[29Jun2024 22:50:52.931] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[29Jun2024 22:50:54.163] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[29Jun2024 22:50:54.164] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
+[29Jun2024 22:50:55.618] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[29Jun2024 22:50:55.950] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Jun2024 22:50:55.950] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Jun2024 22:50:55.950] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Jun2024 22:50:55.950] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Jun2024 22:50:55.950] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Jun2024 22:50:56.268] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficult factors EASY: 0.9, NORMAL: 1.0, PEACEFUL: 1.0 and HARD: 2.0
+[29Jun2024 22:50:56.269] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 1/3 - Server took about 99.94 sec to load ...
+[29Jun2024 22:50:56.269] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[29Jun2024 22:50:56.287] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[29Jun2024 22:50:56.363] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[29Jun2024 22:50:56.407] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[29Jun2024 22:50:56.407] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[29Jun2024 22:50:56.408] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[29Jun2024 22:50:56.409] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[29Jun2024 22:50:56.458] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[29Jun2024 22:50:56.460] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[29Jun2024 22:50:56.515] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[29Jun2024 22:50:56.824] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[29Jun2024 22:50:56.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Jun2024 22:50:56.886] [Server thread/WARN] [org.kettingpowered.ketting.core.Ketting/]: Level key not set, determining from stem LevelStem[type=Reference{ResourceKey[minecraft:dimension_type / minecraft:overworld]=DimensionType[fixedTime=OptionalLong.empty, hasSkyLight=true, hasCeiling=false, ultraWarm=false, natural=true, coordinateScale=1.0, bedWorks=true, respawnAnchorWorks=false, minY=-64, height=384, logicalHeight=384, infiniburn=TagKey[minecraft:block / minecraft:infiniburn_overworld], effectsLocation=minecraft:overworld, ambientLight=0.0, monsterSettings=MonsterSettings[piglinSafe=false, hasRaids=true, monsterSpawnLightTest=[0-7], monsterSpawnBlockLightLimit=0]]}, generator=net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@59d5dc3]
+[29Jun2024 22:50:56.888] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[29Jun2024 22:50:56.891] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[29Jun2024 22:50:56.891] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[29Jun2024 22:50:56.893] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[29Jun2024 22:50:56.895] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[29Jun2024 22:50:56.896] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[29Jun2024 22:50:56.896] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[29Jun2024 22:50:56.897] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[29Jun2024 22:50:56.898] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[29Jun2024 22:50:56.899] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[29Jun2024 22:51:07.493] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[29Jun2024 22:51:07.494] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[29Jun2024 22:51:07.495] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[29Jun2024 22:51:07.532] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[29Jun2024 22:51:07.533] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[29Jun2024 22:51:07.534] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[29Jun2024 22:51:07.647] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficulty is set to HARD with a 2.0 factor.
+[29Jun2024 22:51:07.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Jun2024 22:51:16.154] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
+[29Jun2024 22:51:17.114] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 19037032 ms
+[29Jun2024 22:51:17.115] [Server thread/INFO] [me.mulemuledupe.simpletpa.SimpleTpa/]: [SimpleTpa] Enabling SimpleTpa v7.1
+[29Jun2024 22:51:17.116] [Server thread/INFO] [/]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[29Jun2024 22:51:17.116] [Server thread/INFO] [/]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
+[29Jun2024 22:51:17.158] [Server thread/INFO] [Minecraft/]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[29Jun2024 22:51:17.178] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Enabling TAB v4.1.6
+[29Jun2024 22:51:17.465] [Server thread/INFO] [/]: [TAB] Loaded NMS hook in 165ms
+[29Jun2024 22:51:17.919] [Server thread/INFO] [/]: [TAB] Enabled in 372ms
+[29Jun2024 22:51:17.920] [Server thread/INFO] [deadlydisasters.Main/]: [DeadlyDisasters] Enabling DeadlyDisasters v11.0
+[29Jun2024 22:51:17.965] [Server thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jun2024 22:51:18.517] [Server thread/INFO] [deadlydisasters.Main/]: [DeadlyDisasters] Checking for update...
+[29Jun2024 22:51:18.542] [Server thread/INFO] [/]: [DeadlyDisasters]: Enjoying the plugin? Try the pro version which has many new features such as new new disasters, new custom mobs, new custom items, regenerating worlds, block stability for bases, and much more upgrade now to pro here https://www.spigotmc.org/resources/deadlydisasters-pro.100918/
+[29Jun2024 22:51:18.578] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.21.0-dev+93-3a6fdd9
+[29Jun2024 22:51:19.510] [Server thread/ERROR] [Essentials/]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+[29Jun2024 22:51:19.523] [Server thread/INFO] [Essentials/]: Status determining class: net.minecraftforge.common.MinecraftForge
+[29Jun2024 22:51:19.736] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[29Jun2024 22:51:19.736] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[29Jun2024 22:51:20.016] [Server thread/INFO] [Essentials/]: Loaded 39121 items from items.json.
+[29Jun2024 22:51:20.022] [Server thread/INFO] [Essentials/]: Using locale en_US
+[29Jun2024 22:51:20.181] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+[29Jun2024 22:51:20.620] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+[29Jun2024 22:51:20.651] [Server thread/WARN] [Essentials/]: Detected supported permissions plugin LuckPerms without Vault installed.
+[29Jun2024 22:51:20.651] [Server thread/WARN] [Essentials/]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[29Jun2024 22:51:20.651] [Server thread/INFO] [Essentials/]: Using superperms-based permissions.
+[29Jun2024 22:51:20.652] [Server thread/INFO] [me.iangry.antinetherroof.Main/]: [AntiNetherRoof] Enabling AntiNetherRoof v1.2.5
+[29Jun2024 22:51:20.656] [Server thread/INFO] [/]: AntiNetherRoof 1.2.5
+[29Jun2024 22:51:20.656] [Server thread/INFO] [/]: Developer: Discord: iAngry#0932 Spigot: gregoryg
+[29Jun2024 22:51:20.656] [Server thread/INFO] [/]: Enabled
+[29Jun2024 22:51:20.682] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[29Jun2024 22:51:20.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.840s)! For help, type "help"
+[29Jun2024 22:51:20.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[29Jun2024 22:51:20.796] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[29Jun2024 22:51:20.796] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
+[29Jun2024 22:51:20.902] [Server thread/ERROR] [net.minecraftforge.server.permission.PermissionAPI/]: Unable to find configured permission handler luckperms:permission_handler, will use forge:default_handler
+[29Jun2024 22:51:20.903] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Jun2024 22:51:20.904] [Server thread/INFO] [org.kettingpowered.ketting.core.Ketting/]: Forwarding forge permission[forge:default_handler] to bukkit
+[29Jun2024 22:51:20.904] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Max number of remote players is set to 20
+[29Jun2024 22:51:20.904] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 2/3 - Server took about 124.575 sec to starting (∆: 24.635 secs)...
+[29Jun2024 22:51:20.905] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[29Jun2024 22:51:20.919] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 13ms
+[29Jun2024 22:51:20.919] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[29Jun2024 22:51:20.919] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[29Jun2024 22:51:20.919] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[29Jun2024 22:51:20.919] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[29Jun2024 22:51:20.981] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:auto_save
+[29Jun2024 22:51:20.982] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:resend_request
+[29Jun2024 22:51:20.982] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:restrict_game_type
+[29Jun2024 22:51:20.982] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:restrict_movement
+[29Jun2024 22:51:20.982] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:timeout
+[29Jun2024 22:51:20.982] [Server thread/INFO] [com.adamsmods.adamsarsplus.AdamsArsPlus/]: HELLO from server starting
+[29Jun2024 22:51:20.983] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 3/3 - Server took about 124.654 sec to be available and ready to play (∆: 0.079 secs) ...
+[29Jun2024 22:51:20.986] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[29Jun2024 22:51:20.987] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: logprot.json
+[29Jun2024 22:51:21.006] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[29Jun2024 22:51:21.007] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[29Jun2024 22:51:21.007] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[29Jun2024 22:51:21.006] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[29Jun2024 22:51:21.204] [Server thread/INFO] [PlasmoVoice/]: UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[29Jun2024 22:51:21.205] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29Jun2024 22:51:21.387] [Craft Scheduler Thread - 4/INFO] [Essentials/]: Fetching version information...
+[29Jun2024 22:51:21.640] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.4 started
+[29Jun2024 22:51:21.804] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[29Jun2024 22:51:21.805] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[29Jun2024 22:51:21.805] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[29Jun2024 22:51:21.805] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[29Jun2024 22:51:21.805] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[29Jun2024 22:51:21.805] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[29Jun2024 22:51:21.806] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[29Jun2024 22:51:21.806] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.15[0;39m
+[29Jun2024 22:51:21.806] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mfcfa8b9[0;39m
+[29Jun2024 22:51:21.806] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[29Jun2024 22:51:21.806] [Craft Scheduler Thread - 1/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[29Jun2024 22:51:22.079] [Craft Scheduler Thread - 4/WARN] [Essentials/]: You're 7 EssentialsX dev build(s) out of date!
+[29Jun2024 22:51:22.079] [Craft Scheduler Thread - 4/WARN] [Essentials/]: Download it here: https://essentialsx.net/downloads.html
+[29Jun2024 22:51:23.565] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:overworld changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 10.9990607)
+[29Jun2024 22:51:23.566] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_end changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.13193828)
+[29Jun2024 22:51:23.566] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_nether changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.06337412)
+[29Jun2024 22:51:24.001] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.8 started
+[29Jun2024 22:51:24.007] [RCON Client /172.19.0.8 #3/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.19.0.8 shutting down
+[29Jun2024 22:51:24.016] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.8 started
+[29Jun2024 22:51:24.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Automatic saving is now disabled]
+[29Jun2024 22:51:24.026] [RCON Client /172.19.0.8 #4/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.19.0.8 shutting down
+[29Jun2024 22:51:24.034] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.8 started
+[29Jun2024 22:51:26.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Jun2024 22:51:26.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jun2024 22:51:26.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jun2024 22:51:26.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Jun2024 22:51:26.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Saved the game]
+[29Jun2024 22:51:26.219] [RCON Client /172.19.0.8 #5/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.19.0.8 shutting down
+[29Jun2024 22:51:37.309] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from NORMAL (avg. 41.554649353027344) to VERY_LOW (avg. 7.089021682739258)
+[29Jun2024 22:52:13.781] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player char2cs is d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 22:52:22.564] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[29Jun2024 22:52:24.084] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 22:52:24.342] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: char2cs[/192.168.1.116:50724] logged in with entity id 160 at ([world]-0.5600780065793567, 78.07436351158884, 7.745664297472151)
+[29Jun2024 22:52:24.523] [Server thread/INFO] [/]: char2cs / 1 / 20. Uptime: 3 minutes 8 seconds
+[29Jun2024 22:52:28.499] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player TESTING is 09f22757-79b9-34fb-a6eb-2a719b4dfa8d
+[29Jun2024 22:52:31.302] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.8 started
+[29Jun2024 22:52:31.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Automatic saving is now enabled]
+[29Jun2024 22:52:31.305] [RCON Client /172.19.0.8 #6/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.19.0.8 shutting down
+[29Jun2024 22:52:35.865] [Netty Epoll Server IO #0/INFO] [simplelogin/]: Player char2cs has successfully logged in.
+[29Jun2024 22:52:37.457] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 09f22757-79b9-34fb-a6eb-2a719b4dfa8d
+[29Jun2024 22:52:37.511] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TESTING[/192.168.1.116:50728] logged in with entity id 197 at ([world]1.7559999922513965, 60.995, -8.439579428081304)
+[29Jun2024 22:52:37.522] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 6.755371570587158) to VERY_HIGH (avg. 63.256656646728516)
+[29Jun2024 22:52:37.572] [Server thread/INFO] [/]: TESTING / 2 / 20. Uptime: 3 minutes 21 seconds
+[29Jun2024 22:52:37.881] [Netty Epoll Server IO #1/INFO] [simplelogin/]: Player testing has successfully logged in.
+[29Jun2024 22:52:39.595] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode creative
+[29Jun2024 22:52:44.809] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from VERY_HIGH (avg. 63.256656646728516) to VERY_LOW (avg. 15.652388572692871)
+[29Jun2024 22:53:14.678] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /setworldspawn
+[29Jun2024 22:53:14.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Set the world spawn point to 1, 227, -10 [0.0]]
+[29Jun2024 22:54:04.866] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /setworldspawn
+[29Jun2024 22:54:04.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Set the world spawn point to 1, 222, 3 [0.0]]
+[29Jun2024 22:54:07.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /setworldspawn
+[29Jun2024 22:54:07.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Set the world spawn point to 1, 222, 3 [0.0]]
+[29Jun2024 22:55:16.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode survival
+[29Jun2024 22:57:26.494] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamerule spawnRadius 1
+[29Jun2024 22:57:26.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Gamerule spawnRadius is now set to: 1]
+[29Jun2024 22:57:49.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /setworldspawn
+[29Jun2024 22:57:49.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Set the world spawn point to 1, 219, 16 [0.0]]
+[29Jun2024 22:58:25.440] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode creative
+[29Jun2024 22:58:46.351] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /setworldspawn
+[29Jun2024 22:58:46.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Set the world spawn point to 1, 220, 15 [0.0]]
+[29Jun2024 22:59:47.232] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode survival
+[29Jun2024 22:59:56.473] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /kill char2cs
+[29Jun2024 23:00:39.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode creative
+[29Jun2024 23:01:02.184] [Server thread/INFO] [/]: [DeadlyDisasters]: Un mob tiene la Plaga negra (Enfermedad del papu)
+[29Jun2024 23:01:02.184] [Server thread/INFO] [/]: Tip: Avoid making contact with any mobs, if you see black particles near a mob it means they are infected. (world)
+[29Jun2024 23:03:59.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs lost connection: Disconnected
+[29Jun2024 23:03:59.869] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:03:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: -char2cs / 1 / 20. Uptime: 14 minutes 43 seconds
+[29Jun2024 23:04:06.467] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TESTING lost connection: Disconnected
+[29Jun2024 23:04:06.467] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 09f22757-79b9-34fb-a6eb-2a719b4dfa8d
+[29Jun2024 23:04:06.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: -TESTING / 0 / 20. Uptime: 14 minutes 50 seconds
+[29Jun2024 23:04:13.350] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player char2cs is d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:04:22.231] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:04:22.250] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: char2cs[/192.168.1.116:50874] logged in with entity id 4202 at ([world]0.383976853108639, 219.4215999984741, 18.948860742373824)
+[29Jun2024 23:04:22.265] [Server thread/INFO] [/]: char2cs / 1 / 20. Uptime: 15 minutes 5 seconds
+[29Jun2024 23:04:22.309] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 3.5296812057495117) to LOW (avg. 23.80213165283203)
+[29Jun2024 23:04:22.697] [Netty Epoll Server IO #2/INFO] [simplelogin/]: Player char2cs has successfully logged in.
+[29Jun2024 23:04:29.809] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 23.80213165283203) to VERY_LOW (avg. 8.750520706176758)
+[29Jun2024 23:04:39.953] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode creative
+[29Jun2024 23:04:45.457] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /kill char2cs
+[29Jun2024 23:04:54.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs lost connection: Disconnected
+[29Jun2024 23:04:54.867] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:04:54.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: -char2cs / 0 / 20. Uptime: 15 minutes 38 seconds
+[29Jun2024 23:05:06.024] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player char2cs is d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:05:14.930] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:05:14.945] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: char2cs[/192.168.1.116:50886] logged in with entity id 4376 at ([world]-25.47795612907245, 225.2824402002534, 50.226758981811294)
+[29Jun2024 23:05:14.956] [Server thread/INFO] [/]: char2cs / 1 / 20. Uptime: 15 minutes 58 seconds
+[29Jun2024 23:05:15.295] [Netty Epoll Server IO #0/INFO] [simplelogin/]: Player char2cs has successfully logged in.
+[29Jun2024 23:05:29.418] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /gamemode creative
+[29Jun2024 23:06:26.667] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs issued server command: /stop
+[29Jun2024 23:06:26.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [char2cs: Stopping the server]
+[29Jun2024 23:06:26.718] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
+[29Jun2024 23:06:26.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jun2024 23:06:26.722] [Server thread/INFO] [me.iangry.antinetherroof.Main/]: [AntiNetherRoof] Disabling AntiNetherRoof v1.2.5
+[29Jun2024 23:06:26.723] [Server thread/INFO] [/]: AntiNetherRoof 1.2.5
+[29Jun2024 23:06:26.723] [Server thread/INFO] [/]: Developer: Discord: iAngry#0932 Spigot: gregoryg
+[29Jun2024 23:06:26.723] [Server thread/INFO] [/]: Disabled
+[29Jun2024 23:06:26.725] [Server thread/INFO] [Essentials/]: Disabling Essentials v2.21.0-dev+93-3a6fdd9
+[29Jun2024 23:06:26.733] [Server thread/INFO] [deadlydisasters.Main/]: [DeadlyDisasters] Disabling DeadlyDisasters v11.0
+[29Jun2024 23:06:26.758] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Disabling SkinsRestorer v15.0.15
+[29Jun2024 23:06:26.760] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Disabling TAB v4.1.6
+[29Jun2024 23:06:26.761] [Server thread/INFO] [/]: [TAB] Disabled in 1ms
+[29Jun2024 23:06:26.762] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[29Jun2024 23:06:26.807] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[29Jun2024 23:06:26.810] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.4.131
+[29Jun2024 23:06:26.810] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[29Jun2024 23:06:26.828] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[29Jun2024 23:06:26.850] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[29Jun2024 23:06:26.851] [Server thread/INFO] [me.mulemuledupe.simpletpa.SimpleTpa/]: [SimpleTpa] Disabling SimpleTpa v7.1
+[29Jun2024 23:06:26.851] [Server thread/INFO] [/]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[29Jun2024 23:06:26.851] [Server thread/INFO] [/]: [SimpleTpa] Simple Tpa has been disabled on version 7.1
+[29Jun2024 23:06:26.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jun2024 23:06:26.884] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: char2cs lost connection: Server closed
+[29Jun2024 23:06:26.884] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for d80bfb0b-9003-37ae-8589-07d4cad08306
+[29Jun2024 23:06:26.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: char2cs left the game.
+[29Jun2024 23:06:27.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Jun2024 23:06:27.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Jun2024 23:06:30.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[29Jun2024 23:06:30.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[29Jun2024 23:06:30.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Jun2024 23:06:30.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jun2024 23:06:30.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jun2024 23:06:30.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Jun2024 23:06:30.573] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[29Jun2024 23:06:30.574] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[29Jun2024 23:06:30.592] [Server thread/INFO] [simplelogin/]: Shutting down player login handler
+[29Jun2024 23:06:30.592] [Server thread/INFO] [simplelogin/]: Disabling all plugins
+[29Jun2024 23:06:30.593] [Server thread/INFO] [simplelogin/]: Saving all entries
+[29Jun2024 23:06:30.631] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
+[29Jun2024 23:06:30.632] [RCON Client /172.19.0.4 #2/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.19.0.4 shutting down
+[29Jun2024 23:06:30.632] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.19.0.4 stopped
