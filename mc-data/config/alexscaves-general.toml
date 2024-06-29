@@ -31,7 +31,7 @@
 	#Range: > 20
 	nucleeper_fuse_time = 300
 	#True if the Tremorzilla beam breaks even more blocks.
-	devastating_tremorzilla_beam = true
+	devastating_tremorzilla_beam = false
 	#Whether the Watcher can take control of the camera.
 	watcher_possession = true
 	#How long (in game ticks) between watcher possession attempts.

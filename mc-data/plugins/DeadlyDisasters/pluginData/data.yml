@@ -1,13 +1,13 @@
 data:
   version: 11.0
   timerValueMemory: 120
-  entries: 33
+  entries: 36
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 133856
+  catalogFetchCooldown: 130802
   currentConfig: DEFAULT
-  favored: Soul Storm
+  favored: Supernova
   disliked: 'null'
   catalogVersion: 3
 customentities: {}
@@ -146,7 +146,7 @@ timers:
   add4b54c-62f1-42fd-bfc8-6c4977ebfd10:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 155
   4a25ccdd-b4db-46d7-af70-3fe62242eb21:
-    d80bfb0b-9003-37ae-8589-07d4cad08306: 113
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 65
     95a3dfdc-146b-3f78-8b3c-aa38268c59ed: 150
   bf7241e8-bc20-45f3-aa36-153600a82da7:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 118
@@ -154,3 +154,12 @@ timers:
   8af61f14-bec7-4a69-9feb-6e5c3368a789:
     d80bfb0b-9003-37ae-8589-07d4cad08306: 146
     95a3dfdc-146b-3f78-8b3c-aa38268c59ed: 134
+  eb48fab0-defa-457c-98a3-6d54837f9ca3:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 166
+    09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 171
+  d021e65b-9e26-4d34-9eba-f3366cbb2059:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 119
+    09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 116
+  8e567ba4-9f82-4340-96ae-bf163a3ae1c4:
+    d80bfb0b-9003-37ae-8589-07d4cad08306: 162
+    09f22757-79b9-34fb-a6eb-2a719b4dfa8d: 141
